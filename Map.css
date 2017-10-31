@@ -1,3 +1,14 @@
+/*Naviagtion Bar*/
+ ul {
+       padding: 10px;
+       background: rgba(255,0,0,0.5);
+       text-align: right;
+    }
+    li {
+       display: inline;
+       padding: 0px 10px 0px 10px;
+    }
+
 p {
 	color: rgba(250,0,0,1);
 }
