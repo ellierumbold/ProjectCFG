@@ -4,9 +4,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="LandingPage.css">
 	<link rel="icon" type="image/png" href="http://img.pngpicture.com/content/files/clipart/6/coffee/36183-1.png"/>
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"> </script>
+	<script src="LandingPage.js"></script>
 </head>
 
 <!-- this is the main landing page where everything is embedded into -->
+	<!--Train--> <!-- Alternate train cartoon -"https://kids.kiddle.co/images/8/87/1996_stock_driver_car.png"-->	
+<div class="scroll-left">
+	<div class="inner">
+		<img src="http://www.stgeorges.co.uk/SightsOfLondon/images/TUBE-TRAIN.png" width="300" height="60" alt="Tube Train" >
+	</div>
+</div>
 
 <body>
 <!-- Add in Navigation with Bootstrap-->
@@ -16,13 +25,14 @@
     <li><a href="/Contact">  Contact Us </a> </li>
 </ul>
 
-<!--Train-->	
-<div class="scroll-left">
-	<div class="inner">
-		<img src="https://kids.kiddle.co/images/8/87/1996_stock_driver_car.png" width="200" height="40" alt="Tube Train" >
-	</div>
-</div>
+<br>
+<!-- Image change when you hover, can't get to work in external JS file -->
+<div class="landing-page-central-image">
+	<a href="" onMouseOver="document.underground.src='http://img.pngpicture.com/content/files/clipart/6/coffee/36183-1.png';" onMouseOut="document.underground.src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Underground.svg/2000px-Underground.svg.png';">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Underground.svg/2000px-Underground.svg.png" name="underground" width="450" height="350"  alt=Underground Sign> </a>
+</div>	
+<br>
 
-
+<h1> The best coffee spots in Central London </h1>
 
 </body>
