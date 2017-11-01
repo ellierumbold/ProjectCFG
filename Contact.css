@@ -10,3 +10,15 @@
        display: inline;
        padding: 0px 10px 0px 10px;
     }
+
+ /*Body contents*/
+
+ body{
+ 	background-color: whitle;
+ 	text-align: center;
+ 	font-family: "Gloria Hallelujah"
+ 	text-size: 36px;
+ }
+
+ /* Form style needs to be developed for better UX */
+ 
