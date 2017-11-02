@@ -1,11 +1,15 @@
+<!-- This is the html page we will use for the 'Contact' page -->
 <!DOCTYPE html>
+<html>
 <head>
 	<title>CFG Project</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="LandingPage.css">
 	<link rel="icon" type="image/png" href="http://img.pngpicture.com/content/files/clipart/6/coffee/36183-1.png"/>
-
-<!-- This is the html page we will use for the 'Contact' page -->
+<!-- Contact form referencing Bootstrap 4.0.0 */ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<!-- Add in Navigation with Bootstrap-->
 <link rel="stylesheet" type="text/css" href="Contact.css">
 	<ul>
     <li><a href="map.html"> Map </a> </li>
@@ -18,13 +22,12 @@
 </head>
 
 <body>
-
-<!-- Add in Navigation with Bootstrap-->
-<body style="background-color: rgba(0,0,100,0.5);>
-<div class="row">
-	<!-- Contact form referencing Bootstrap 3.3.4 */ -->
+        <div class="contact-page-central-image">
+        <img src="Contactimg.jpeg" alt="picture description" width="absolute">
+<!-- Contact form with form contents -->
+<div class="row" position="text-center">	
 <div class="col-sm-6 col-sm-offset-3">
-    <div class="well" style="margin-top: 5%;">
+    <div class="well" style="margin-top: -140%;">
     <h2>Share with us :))</h2>
     <form role="form" id="contactForm" data-toggle="validator" class="shake">
         <div class="row">
@@ -51,5 +54,9 @@
     </div>
 </div>
 </div>
+<!-- Bootstrap core JavaScript -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
-
+</html>
