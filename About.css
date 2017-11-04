@@ -1,3 +1,8 @@
 
 
 <!-- This is the CSS page for our About page-->
+
+body {
+	font-family: typewriter;
+	background-color: rgb(0,58,175);
+}
