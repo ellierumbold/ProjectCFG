@@ -30,4 +30,34 @@ a {
 	padding: 50px;
 }
 
+
+
+/*Naviagtion Bar*/
+
+
+ div{
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	color:white;
+ }
+img{
+	background-image: auto;
+	background-color: transparent;
+}
+ .class {
+ 	position: center;
+ 	left: -10;
+ 	right:0;
+ 	margin: auto;
+ }
+
+ .center form{
+ 	display: inline-block;
+ 	position: center;
+ 	border-left: 200;
+ }
+.grid-row{
+	position: center;
+}
  /* Form style needs to be developed for better UX */
