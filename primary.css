@@ -1,4 +1,10 @@
 
+/* this is for the landing page */
+
+/* this is for the map page */
+
+/* this is for the about page */
+
 body {
 	background-color: rgb(0,5,142);
 	font-family: courier new;
@@ -36,3 +42,7 @@ body {
 	margin-bottom: 18px;
 	color: rgb(0,5,142);
 }
+
+/* this is for the contact us page */
+
+
