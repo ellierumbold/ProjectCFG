@@ -1,8 +1,38 @@
 
-
-<!-- This is the CSS page for our About page-->
-
 body {
-	font-family: typewriter;
-	background-color: rgb(0,58,175);
+	background-color: rgb(0,5,142);
+	font-family: courier new;
+	color: white;
+}
+
+.nav {
+	color: white;
+}
+
+#introduction {
+	background-color: white;
+	border: solid red 5px;
+	margin-bottom: 18px;
+	color: rgb(0,5,142);
+}
+
+#history {
+	background-color: white;
+	border: solid red 5px;
+	margin-bottom: 18px;
+	color: rgb(0,5,142);
+}
+
+#making {
+	background-color: white;
+	border: solid red 5px;
+	margin-bottom: 18px;
+	color: rgb(0,5,142);
+}
+
+#ethics {
+	background-color: white;
+	border: solid red 5px;
+	margin-bottom: 18px;
+	color: rgb(0,5,142);
 }
