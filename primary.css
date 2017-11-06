@@ -1,9 +1,4 @@
 
-/* this is for the landing page */
-
-/* this is for the map page */
-
-/* this is for the about page */
 
 body {
 	background-color: rgb(0,5,142);
@@ -19,61 +14,19 @@ a {
 	background-color: white;
 	border: solid red 5px;
 	margin-bottom: 18px;
-	color: rgb(0,5,142);
-	
+	color: rgb(0,5,142);	
 }
 
-
-/* this is for the contact us page */
-
-/*Naviagtion Bar*/
- ul {
+.menubar {
        padding: 10px;
-       background: rgba(255,0,0,0.5);
+       background: rgba(255,0,0,1);
        text-align: right;
-    }
-    li {
-       display: inline;
-       padding: 0px 10px 0px 10px;
-    }
 
- /*Body contents*/
-body{
- 	color: whitle;
- 	padding-top: 50px;
- 	background-color: whitle;
- 	text-align: center;
- 	font-family: "Gloria Hallelujah";
- 	align:center;
- }
-
- h2{
- 	color: white;
- }
-
- div{
- 	display: block;
- 	margin-left: auto;
- 	margin-right: auto;
- 	color:white;
- }
-img{
-	background-image: auto;
-	background-color: transparent;
 }
- .class {
- 	position: center;
- 	left: -10;
- 	right:0;
- 	margin: auto;
- }
 
- .center form{
- 	display: inline-block;
- 	position: center;
- 	border-left: 200;
- }
-.grid-row{
-	position: center;
+.contactustitle {
+	text-align: center
+	padding: 50px;
 }
+
  /* Form style needs to be developed for better UX */
