@@ -38,7 +38,14 @@ a {
     }
 
  /*Body contents*/
-
+body{
+ 	text-color: whitle;
+ 	padding-top: 50px;
+ 	background-color: whitle;
+ 	text-align: center;
+ 	font-family: "Gloria Hallelujah";
+ 	align:center;
+ }
 
  h2{
  	text-decoration-color: white;
