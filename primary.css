@@ -45,4 +45,58 @@ body {
 
 /* this is for the contact us page */
 
+/*This is the CSS page for our Contact page*/
+
+/*Naviagtion Bar*/
+ ul {
+       padding: 10px;
+       background: rgba(255,0,0,0.5);
+       text-align: right;
+    }
+    li {
+       display: inline;
+       padding: 0px 10px 0px 10px;
+    }
+
+ /*Body contents*/
+
+ body{
+ 	text-color: whitle;
+ 	padding-top: 50px;
+ 	background-color: whitle;
+ 	text-align: center;
+ 	font-family: "Gloria Hallelujah";
+ 	align:center;
+ }
+ h2{
+ 	text-decoration-color: white;
+ }
+
+ div{
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	color:rgba(0,0,100,1);
+ }
+img{
+	background-image: auto;
+	background-color: transparent;
+}
+ .class {
+ 	position: center;
+ 	left: -10;
+ 	right:0;
+ 	margin: auto;
+ }
+
+ .center form{
+ 	display: inline-block;
+ 	position: center;
+ 	border-left: 200;
+ }
+.grid-row{
+	position: center;
+}
+ /* Form style needs to be developed for better UX */
+ 
 
