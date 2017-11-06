@@ -11,37 +11,17 @@ body {
 	color: white;
 }
 
-.nav {
+a {
 	color: white;
 }
 
-#introduction {
+.boxes {
 	background-color: white;
 	border: solid red 5px;
 	margin-bottom: 18px;
 	color: rgb(0,5,142);
 }
 
-#history {
-	background-color: white;
-	border: solid red 5px;
-	margin-bottom: 18px;
-	color: rgb(0,5,142);
-}
-
-#making {
-	background-color: white;
-	border: solid red 5px;
-	margin-bottom: 18px;
-	color: rgb(0,5,142);
-}
-
-#ethics {
-	background-color: white;
-	border: solid red 5px;
-	margin-bottom: 18px;
-	color: rgb(0,5,142);
-}
 
 /* this is for the contact us page */
 
