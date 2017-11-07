@@ -1,13 +1,18 @@
 
-
-body {
+/*Universal CSS*/
+* {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+.BlueBackground{
 	background-color: rgb(0,5,142);
 	font-family: courier new;
 	color: white;
 }
 
-a {
+nav a {
 	color: white;
+	text-decoration: none;
+	padding-left: 20px
 }
 
 .boxes {
@@ -18,10 +23,10 @@ a {
 }
 
 .menubar {
-       padding: 10px;
+       padding: 10px 20px 10px 10px;
        background: rgba(255,0,0,1);
        text-align: right;
-
+       font-size: 20px
 }
 
 .contactustitle {
@@ -29,12 +34,8 @@ a {
 	padding: 50px;
 }
 
-
-
 /*Naviagtion Bar*/
-
-
- div{
+div{
  	display: block;
  	margin-left: auto;
  	margin-right: auto;
@@ -60,3 +61,70 @@ img{
 	position: center;
 }
  /* Form style needs to be developed for better UX */
+
+ /* Landing Page */
+ .WhiteBackground {
+  background: : white;
+ }
+
+ .landing-page-central-image {
+	text-align: center;
+	margin: 0 auto;
+	padding:0;
+}
+
+.LandingPageText {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 40px;
+}
+
+ /*Train*/
+ .scroll-left {
+ height: 60px;	
+ overflow: hidden;
+ position: relative;
+}
+.scroll-left .inner {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: scroll-left 10s linear infinite;
+ -webkit-animation: scroll-left 10s linear infinite;
+ animation: scroll-left 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-left {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes scroll-left {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes scroll-left {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Browser bug fix */
+ -webkit-transform: translateX(100%); /* Browser bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Browser bug fix */
+ -webkit-transform: translateX(-100%); /* Browser bug fix */
+ transform: translateX(-100%); 
+ }
+}
+
+ /* Map Page */
+
+ /*About Page*/
+
+ /*Contact Us Page*/
