@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="primary.css">
 	<link rel="icon" type="image/png" href="http://img.pngpicture.com/content/files/clipart/6/coffee/36183-1.png"/>
   <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  <link href='dist/css/bootstrap.css' rel=' stylesheet'>
 </head>
 <body class="BlueBackground">
 	<!-- Menu bar goes here (Contact Us/About Us/Map - add in naviation with bootstrap)-->
@@ -18,7 +19,6 @@
     </nav>
   </div>
 
-<h1> Title Related to Coffee </h1>
 <p>
 Click the tube stops on the map to find the best coffee locations around central London!
 </p>
@@ -26,6 +26,22 @@ Click the tube stops on the map to find the best coffee locations around central
 <!--Picture of tube map here with area coordinates linked to each station from http://imagemap-generator.dariodomi.de/-->
 <!--Split screen left and right using bootstrap-->
  <!-- Add in pop ups linked to each station with Coffee place details-->
+
+
+<img src="Zone1TubeMap.png" id="Zone1TubeMap" alt="Zone 1 Tube Map" usemap="#Map" />
+<map name="Map" id="Map">
+    <area alt=" Kings Cross St Pancras" title="" href="#" shape="rect" coords="535,57,549,110" />
+    <area alt="Old Street" title="" href="#" shape="rect" coords="654,104,669,119" />
+    <area alt="Liverpool Street" title="" href="#" shape="rect" coords="746,159,759,187" />
+    <area alt="Baker Street" title="" href="#" shape="rect" coords="283,95,311,121" />
+    <area alt="Paddington" title="" href="#" shape="rect" coords="113,111,147,144" />
+    <area alt="Oxford Circus" title="" href="#" shape="rect" coords="352,211,363,223" />
+    <area alt="Leicester Square" title="" href="#" shape="rect" coords="445,266,459,280" />
+    <area alt="South Kensington" title="South Kensington" href="#" shape="rect" coords="207,382,194,357" />
+    <area alt="Embankment" title="" href="#" shape="rect" coords="470,368,449,394" />
+    <area alt="London Bridge" title="" href="#" shape="rect" coords="653,386,669,403" />
+</map>
+
 <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="

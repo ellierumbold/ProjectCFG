@@ -124,6 +124,9 @@ img{
 }
 
  /* Map Page */
+ .Zone1TubeMap img {
+ 	border-radius: 25px;
+ }
 
  /*About Page*/
 
