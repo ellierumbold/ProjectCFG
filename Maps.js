@@ -1,9 +1,39 @@
 
-/* This is the js page for Maps */
-alert('Hello Word')
+/* This is the js page for Maps 
 
  $(document).ready(function(){
             $("#KX").click(function(){
-                $('.boxes').slideToggle();
+                $('.boxes#KXD').slideToggle();
             });
         });
+
+
+ $(document).ready(function(){
+            $("#BS").click(function(){
+                $('.boxes#BSD').slideToggle();
+            });
+        });
+
+$(document).ready(function(){
+            $("#OC").click(function(){
+                $('.boxes#OCD').slideToggle();
+            });
+        });
+
+        */
+
+         $(document).ready(function(){
+        $("#KX").click(function(){
+            $(".boxes#KXD").animate({
+                width: "toggle"
+            });
+        });
+    });
+
+          $(document).ready(function(){
+        $("#BS").click(function(){
+            $(".boxes#BSD").animate({
+                width: "toggle"
+            });
+        });
+    });
