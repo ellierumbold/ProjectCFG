@@ -1,11 +1,11 @@
 
 /*Universal CSS*/
 * {
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: Courier ;
 }
 .BlueBackground{
 	background-color: rgb(0,5,142);
-	font-family: courier new;
+	font-family: Courier;
 	color: white;
 }
 
@@ -19,7 +19,8 @@ nav a {
 	background-color: white;
 	border: solid red 5px;
 	margin-bottom: 18px;
-	color: rgb(0,5,142);	
+	color: rgb(0,5,142);
+	opacity: 1;	
 }
 
 .menubar {
@@ -44,6 +45,10 @@ div{
 img{
 	background-image: auto;
 	background-color: transparent;
+}
+.NavBarLogo {
+	float: left;
+	background-color: white;
 }
  .class {
  	position: center;
@@ -76,7 +81,8 @@ img{
 .LandingPageText {
 	margin: 0 auto;
 	text-align: center;
-	font-size: 40px;
+	font-size: 53px;
+	font-family: Courier;
 }
 
  /*Train*/
@@ -124,9 +130,19 @@ img{
 }
 
  /* Map Page */
- .Zone1TubeMap img {
- 	border-radius: 25px;
+ #Zone1TubeMap {
+ 	border-radius: 50px;
  }
+
+ #Map-Explanation {
+ 	text-align: center;
+ 	font-color: black;
+ }
+
+#KXD {
+  display: none;
+}
+
 
  /*About Page*/
 
