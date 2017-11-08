@@ -37,3 +37,12 @@ $(document).ready(function(){
             });
         });
     });
+
+  $(document).ready(function(){
+    $("area").click(function(){
+        $('.boxes').hide();
+        $('#' + this.id + 'D').animate({
+            width: "toggle"
+        });
+    });
+});
