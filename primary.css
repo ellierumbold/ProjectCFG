@@ -1,10 +1,8 @@
-body {
-	background-color: rgb(0,5,142);
-	font-family: courier new;
-	color: white;
+
 /*Universal CSS*/
 * {
 	font-family: Courier ;
+}
 /*.BlueBackground{
 	background-color: rgb(0,5,142);
 	font-family: Courier;
@@ -16,17 +14,10 @@ nav a {
 	padding-left: 20px
 }
 
-
- /* TRYING TO MAKE CURSOR BECOME COFFEE CUP */
-cursor: href="http://78.media.tumblr.com/2a1694e59b5d5256e6fa65dd0c7eb602/tumblr_inline_mwy3afr6Mf1srowmh.png"
-
 .boxes {
 	background-color: white;
 	border: solid 5px;
 	margin-bottom: 18px;
-	color: rgb(0,5,142);
-	width: 90%;
-	padding: 15px;
 	color: rgb(0,25,168);
 	text-align: center;
 	border-radius: 20px;
@@ -46,45 +37,8 @@ cursor: href="http://78.media.tumblr.com/2a1694e59b5d5256e6fa65dd0c7eb602/tumblr
 
 .contactustitle {
 	text-align: center
-	padding: 200px;
+	padding: 50px;
 }
-
-/*Train CSS*/
-.scroll-left {
- height: 60px;	
- overflow: hidden;
- position: relative;
-}
-.scroll-left .inner {
- position: absolute;
- width: 100%;
- height: 100%;
- margin: 0;
- line-height: 50px;
- text-align: center;
- /* Starting position */
- -moz-transform:translateX(100%);
- -webkit-transform:translateX(100%);	
- transform:translateX(100%);
- /* Apply animation to this element */	
- -moz-animation: scroll-left 10s linear infinite;
- -webkit-animation: scroll-left 10s linear infinite;
- animation: scroll-left 15s linear infinite;
-}
-/* Move it (define the animation) */
-@-moz-keyframes scroll-left {
- 0%   { -moz-transform: translateX(100%); }
- 100% { -moz-transform: translateX(-100%); }
-}
-@-webkit-keyframes scroll-left {
- 0%   { -webkit-transform: translateX(100%); }
- 100% { -webkit-transform: translateX(-100%); }
-}
-@keyframes scroll-left {
- 0%   { 
- -moz-transform: translateX(100%); /* Browser bug fix */
- -webkit-transform: translateX(100%); /* Browser bug fix */
- transform: translateX(100%); 		
 
 footer {
 	background-color: rgb(0,25,168);
@@ -112,12 +66,12 @@ img{
  	right:0;
  	margin: auto;
  }
- 100% { 
- -moz-transform: translateX(-100%); /* Browser bug fix */
- -webkit-transform: translateX(-100%); /* Browser bug fix */
- transform: translateX(-100%); 
- }
 
+ .center form{
+ 	display: inline-block;
+ 	position: center;
+ 	border-left: 200;
+ }
 .grid-row{
 	position: center;
 }
@@ -209,46 +163,4 @@ hr {
 
  /*About Page*/
 
-<<<<<<< HEAD
  /*Contact Us Page*/
-<<<<<<< HEAD
-
- .container.us {
-    position: relative;
-    width: 50%;
-}
-
-.image {
-  opacity: 1;
-  display: block;
-  max-width: 50%;
-  max-height: 50%;
-  transition: .5s ease;
-  backface-visibility: hidden;
-}
-
-.middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 18%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
-}
-
-.container:hover .image {
-  opacity: 0.3;
-}
-
-.container:hover .middle {
-  opacity: 1;
-}
-
-.text {
-  background-color: blue;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
- /*Contact Us Page*/
-
