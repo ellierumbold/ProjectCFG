@@ -22,27 +22,11 @@ $(document).ready(function(){
 
         */
 
-         $(document).ready(function(){
-        $("#KX").click(function(){
-            $(".boxes#KXD").animate({
-                width: "toggle"
-            });
-        });
-    });
 
-          $(document).ready(function(){
-        $("#BS").click(function(){
-            $(".boxes#BSD").animate({
-                width: "toggle"
-            });
-        });
-    });
 
   $(document).ready(function(){
     $("area").click(function(){
         $('.boxes').hide();
-        $('#' + this.id + 'D').animate({
-            width: "toggle"
-        });
+        $('#' + this.id + 'D').slideToggle('slow');
     });
 });
