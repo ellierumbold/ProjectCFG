@@ -171,8 +171,31 @@ hr {
 
  /*About Page*/
 
+ #aboutnav ul a {
+color: black;
+ }
+
+#aboutnav ul{
+	list-style-type: none;
+}
+
+#aboutnav {
+	position: fixed;
+}
+
+#abouthover{
+	text-align:right;
+	padding-right: 50px;
+	padding-top: 30px;
+	font-size: 50px
+}
+
+#aboutdetails {
+	opacity: 0;
+}
+
  #coffee-making {
- 	max-width: 100%;
+ 	max-width: 75%;
     height: auto;
     width: auto\9; /* ie8 */
  }
