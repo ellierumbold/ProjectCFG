@@ -22,7 +22,6 @@ nav a {
 .boxes {
 	background-color: white;
 	border: solid 5px;
-	margin-bottom: 18px;
 	color: rgb(0,25,168);
 	text-align: center;
 	border-radius: 20px;
@@ -86,6 +85,8 @@ img{
  /* Form style needs to be developed for better UX */
 
  /* Landing Page */
+
+
  .WhiteBackground {
   background: : white;
  }
@@ -171,6 +172,7 @@ hr {
 
  /*About Page*/
 
+/*
  #aboutnav ul a {
 color: black;
  }
@@ -186,9 +188,10 @@ color: black;
 #abouthover{
 	text-align:right;
 	padding-right: 50px;
-	padding-top: 30px;
 	font-size: 50px
 }
+
+*/
 
 #aboutdetails {
 	opacity: 0;
@@ -204,7 +207,6 @@ color: black;
  	width:100%;
  	margin: 0 auto;
  	padding-left:0 auto;
-
  }
 
  /*Contact Us Page*/
