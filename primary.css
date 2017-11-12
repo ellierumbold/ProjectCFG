@@ -170,6 +170,11 @@ hr {
  background-color: blue;
 	}
 
+iframe {
+	margin:0px ;
+	padding-right: 60px;
+}	
+
  /*About Page*/
 
 /*
