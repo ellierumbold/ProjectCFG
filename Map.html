@@ -11,6 +11,7 @@
   <link href='dist/css/bootstrap.css' rel=' stylesheet'>
    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="Maps.js"></script>
+  <script src='imageMapResizer.min.js'> </script>
 </head>
 
 <body class="BlueBackground">
@@ -32,12 +33,10 @@ Click the tube stops on the map to find the best coffee locations around central
 </p>
 
 <br>
-
-  <div class="row">
-
+  <div class="row" id='MapResize'>
 <div class="col-md-7">
-<img src="Zone1TubeMap.png" id="Zone1TubeMap" alt="Zone 1 Tube Map" usemap="#Map" />
-<map name="Map" id="Map">
+<img src="Zone1TubeMap.png" id="Zone1TubeMap" alt="Zone 1 Tube Map" usemap="#Map"  style="width: 98%; height: 90%" />
+<map name="Map" id="Map"  style="width: 98%; height: 90%">
     <area id="KX" alt="Kings Cross St Pancras" title="" href="#" shape="rect" coords="474,58,488,111"/>
     <area id="BS"  alt="Baker Street" title="" href="#" shape="rect" coords="221,94,252,124" />
     <area id="SK" alt="South Kensington" title="" href="#" shape="rect" coords="131,359,146,384" />

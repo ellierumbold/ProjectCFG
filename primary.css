@@ -39,13 +39,7 @@ nav a {
        font-size: 20px
 }
 
-.contactustitle {
-	text-align: center;
-}
 
-#contactustitlebox {
-	background-color: rgba(0,0,0,0.5)
-}
 
 footer {
 	background-color: rgb(0,25,168);
@@ -159,7 +153,6 @@ img{
  	border-radius: 50px;
  	border-color: blue;
  }
-
  #Map-Explanation {
  	text-align: center;
  	font-color: black;
@@ -219,6 +212,23 @@ color: black;
  }
 
  /*Contact Us Page*/
+.contactustitle {
+	text-align: center;
+}
+
+#contactustitlebox {
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+}
+
+#contact-page-central-image {
+	margin: 0;
+	padding: 0;
+	max-width:100%;
+	 max-height:100%;
+	 text-align: center
+}
+
 
 /* Tablet Landscape */
 @media screen and (max-width: 1060px) {
@@ -227,6 +237,12 @@ color: black;
 }
 /* Tabled Portrait */
 @media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 460px) {
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }

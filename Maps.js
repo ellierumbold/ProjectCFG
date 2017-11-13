@@ -30,3 +30,7 @@ $(document).ready(function(){
         $('#' + this.id + 'D').slideToggle('slow');
     });
 });
+
+$(document).ready(function() {
+    $('map').imageMapResize();
+});
