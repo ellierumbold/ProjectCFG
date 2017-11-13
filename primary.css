@@ -177,6 +177,7 @@ color: black;
  	max-width: 75%;
     height: auto;
     width: auto\9; /* ie8 */
+    padding: 20px;
  }
 
  .container.aboutpage{
