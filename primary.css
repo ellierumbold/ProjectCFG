@@ -224,3 +224,9 @@ color: black;
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
+
+@media screen and (max-width: 1064px) {
+    .hidden-sm {
+        display: none !important;
+    }
+}
