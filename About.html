@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
+    <link rel="icon" type="image/png" href="http://img.pngpicture.com/content/files/clipart/6/coffee/36183-1.png"/>
 <link href='dist/css/bootstrap.css' rel=' stylesheet'>
     <link href="primary.css" type="text/css" rel="stylesheet"/>
 <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
   </head>
-  <body class="BlueBackground">
+  <body>
 
-  <div class="menubar">
+<!-- figure out why this menubar is a different size? some css affecting it maybe?--> 
+ <div class="menubar">
     <nav>
       <a href="landingpage.html">Home</a>
       <a href="map.html">Map</a>
@@ -21,42 +23,37 @@
     </nav>
   </div>
 
-    <nav id='aboutnav'>
+
+   <!-- hidden for now ... <nav id='aboutnav'>
       <ul>
         <li><a href="#introduction">Introduction</a></li>
         <li><a href="#history">The History Of Coffee</a></li>
         <li><a href="#making">How Coffee Is Made</a></li>
         <li><a href="#ethics">Ethical Drinking...</a></li>
       </ul>
-    </nav>  
+    </nav>  -->
   
-
-  
-  <!-- Trying to make it so this information appears when you hover over the ? -->
-<!--<div class="container aboutpage col-md-offset-11"> 
-  <div class="boxes" id="introduction"> -->
-
+  <!-- Try to make details appear when hovering ? -->
     <h1 id='abouthover'> ? </h1>
     <div id='aboutdetails'>
     <h1>The Best Coffee Spots In London!</h1>
 
   <p>We have spent a lot of time, and done an awful lot of research, to bring you some of the best places to drink coffee in central London. Whether you're a local, or just visiting for a weekend, we're bound to have something you'll love.</p><p>Check out our Map to see what we've created, or learn a bit more about the origins of coffee below.</p>
 </div>
-<!--</div> -->
-
 
 
 <div class='row'>
-<div class="container aboutpage col-md-6">
+<div class="container aboutpage historyflex col-md-6">
   <div class="boxes" id="history">
   <h1>The History Of Coffee</h1>
 
   <p>England first became acquainted with coffee in 1637 when a Turk introduced the drink to Oxford. It quickly became popular among students and teachers who established the "<em>Oxford Coffee Club</em>".<br>The first coffeehouse in Oxford opened in 1650 and was called the "<em>Angel</em>"</p><p>In 1652, a Greek named Pasqua Rosée opened the first coffeehouse in London. Using his extensive knowledge of how to prepare and brew Turkish Coffee, he introduced his friends and clients to its interesting and exotic taste.</p>
 
-  <a href="href="https://en.wikipedia.org/wiki/History_of_coffee">Learn more about the history of "coffee </a>
+  <a href="https://en.wikipedia.org/wiki/History_of_coffee">Learn more about the history of "coffee </a>
   </div>
 </div>
 
+<!-- add padding to bottom of this box to separate from how coffee is made -->
 <div class="container aboutpage col-md-6">
   <div class="boxes" id="ethics">
     <h1>Ethical Drinking...</h1>
@@ -76,11 +73,6 @@
 
 <footer>
   :)
-<div id='social-buttons'>
-      <button class='btn-twitter btn-lg'>Twitter</button>
-      <button class='btn-facebook btn-lg'>Facebook</button>
-      <button class='btn-pinterest btn-lg'>Pinterest</button>
-    </div>
   </div>
 </div>
 </footer>

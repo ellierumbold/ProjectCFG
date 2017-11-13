@@ -3,12 +3,8 @@
 * {
 	font-family: Courier ;
 }
-/*.BlueBackground{
-	background-color: rgb(0,5,142);
-	font-family: Courier;
-	color: white;}*/
 
-nav a {
+.menubar nav a {
 	color: white;
 	text-decoration: none;
 	padding-left: 20px
@@ -50,37 +46,12 @@ footer {
 	color: white;
 }
 
-/*Naviagtion Bar*/
 div{
  	display: block;
  	margin-left: auto;
  	margin-right: auto;
  	color:white;
  }
-img{
-	background-image: auto;
-	background-color: transparent;
-}
-.NavBarLogo {
-	float: left;
-	background-color: white;
-}
- .class {
- 	position: center;
- 	left: -10;
- 	right:0;
- 	margin: auto;
- }
-
- .center form{
- 	display: inline-block;
- 	position: center;
- 	border-left: 200;
- }
-.grid-row{
-	position: center;
-}
- /* Form style needs to be developed for better UX */
 
  /* Landing Page */
 
@@ -174,7 +145,6 @@ iframe {
 
  /*About Page*/
 
-/*
  #aboutnav ul a {
 color: black;
  }
@@ -192,11 +162,13 @@ color: black;
 	padding-right: 50px;
 	font-size: 50px
 }
-
-*/
-
 #aboutdetails {
-	opacity: 0;
+	text-align: left;
+	color: black;
+}
+.historyflex {
+	 display: flex;
+  align-items: center;
 }
 
  #coffee-making {
@@ -205,8 +177,8 @@ color: black;
     width: auto\9; /* ie8 */
  }
 
- .container.aboutpage {
- 	width:100%;
+ .container.aboutpage{
+ 	width:90%;
  	margin: 0 auto;
  	padding-left:0 auto;
  }
