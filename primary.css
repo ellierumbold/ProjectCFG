@@ -40,8 +40,11 @@ nav a {
 }
 
 .contactustitle {
-	text-align: center
-	padding: 50px;
+	text-align: center;
+}
+
+#contactustitlebox {
+	background-color: rgba(0,0,0,0.5)
 }
 
 footer {
