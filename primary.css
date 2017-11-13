@@ -29,6 +29,8 @@
 	text-align: center;
 	border-radius: 20px;
 	opacity: 1;	
+	padding: 20px;
+	margin: 20px;
 }
 
 .boxes.start {
@@ -177,7 +179,6 @@ color: black;
  	max-width: 75%;
     height: auto;
     width: auto\9; /* ie8 */
-    padding: 20px;
  }
 
  .container.aboutpage{
