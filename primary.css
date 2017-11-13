@@ -37,7 +37,7 @@
 }
 
 .boxes {
-	background-color: white;
+	background-color: rgba(0,25,168,0.05);
 	border: solid 5px;
 	color: rgb(0,25,168);
 	text-align: center;
@@ -54,7 +54,7 @@
 footer {
     background-color: rgb(0,25,168);
 	line-height: 30px;
-	position:fixed;
+	position: fixed;
     width:100%;
     bottom:0px;
 	color: white;
@@ -161,6 +161,10 @@ h3{
 
  /*About Page*/
 
+ #abouthover:hover + #aboutdetails {
+    display:block;
+}
+
  #aboutnav ul a {
 color: black;
  }
@@ -176,12 +180,13 @@ color: black;
 #abouthover{
 	text-align:right;
 	padding-right: 50px;
-	font-size: 50px
+	font-size: 50px;
 }
 #aboutdetails {
-	text-align: left;
+	float: left;
 	color: black;
 	padding: 20px;
+	display:none;
 }
 
 .historyflex {
@@ -199,7 +204,7 @@ color: black;
  	width:90%;
  	margin: 0 auto;
  	padding-left:0 auto;
- }
+  }
 
  /*Contact Us Page*/
 .contactustitle {
@@ -216,7 +221,7 @@ color: black;
 	padding: 0;
 	max-width:100%;
 	 max-height:100%;
-	 text-align: center
+	 text-align: center;
 }
 
 #form-submit {
